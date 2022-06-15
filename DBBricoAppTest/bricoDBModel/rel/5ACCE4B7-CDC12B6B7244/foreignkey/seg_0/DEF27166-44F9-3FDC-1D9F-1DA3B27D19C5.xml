@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="DEF27166-44F9-3FDC-1D9F-1DA3B27D19C5" containerWithKeyObject="80EB29F3-C538-DD8F-8EB8-CA02F6961D68" localFKIndex="2337B4DD-7121-FC83-9993-D907B1B695E9" name="creeSuprimer_Categorie_FK">
+<createdBy>mac</createdBy>
+<createdTime>2022-06-15 21:26:15 UTC</createdTime>
+<generatorID>BC019130-9AB7-DC00-3F6D-3F5FEFEA8924</generatorID>
+<ownerDesignName>bricoDBModel</ownerDesignName>
+<referredTableLongName>Categorie</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>293FD6C2-E5B7-150B-0260-09EB01721582</referredTableID>
+<keyObject>C4353944-A5DA-69E4-B5AC-8BD540DA898D</keyObject>
+<referredKeyID>C4353944-A5DA-69E4-B5AC-8BD540DA898D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>idcategorie</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

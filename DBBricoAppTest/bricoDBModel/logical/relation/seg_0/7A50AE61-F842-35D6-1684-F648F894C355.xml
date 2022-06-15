@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="categorieAnnonce" directorySegmentName="seg_0" id="7A50AE61-F842-35D6-1684-F648F894C355">
+<createdBy>mac</createdBy>
+<createdTime>2022-06-15 21:21:14 UTC</createdTime>
+<ownerDesignName>bricoDBModel</ownerDesignName>
+<engineerTo>
+<item key="5ACCE4B7-5CC1-7E69-1ED2-CDC12B6B7244" value="true"/>
+</engineerTo>
+<sourcePk>82D95711-4784-6F7D-2AE8-046B7867CE13</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B53C6F82-18AB-4DEC-8F99-98853E510A93</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>3737B215-18FA-BEDD-19CF-79F55C4EDDEF</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="bricoDBModel" id="C38C022C-AE63-B5E8-FED0-86BEF572E6B9" version="3.5">
+<createdBy>mac</createdBy>
+<createdTime>2022-06-15 20:11:39 UTC</createdTime>
+<ownerDesignName>bricoDBModel</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>C38C022C-AE63-B5E8-FED0-86BEF572E6B9</designId>
+</OSDM_Design>

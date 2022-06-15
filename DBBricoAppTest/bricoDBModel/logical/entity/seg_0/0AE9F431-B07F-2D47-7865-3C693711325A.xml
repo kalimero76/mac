@@ -1,0 +1,159 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0AE9F431-B07F-2D47-7865-3C693711325A" name="Utilisateur">
+<createdBy>mac</createdBy>
+<createdTime>2022-06-15 20:12:10 UTC</createdTime>
+<ownerDesignName>bricoDBModel</ownerDesignName>
+<engineerTo>
+<item key="5ACCE4B7-5CC1-7E69-1ED2-CDC12B6B7244" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nom" id="525C256D-BC8B-983B-A5D2-81040476E5B7">
+<createdBy>mac</createdBy>
+<createdTime>2022-06-15 20:12:26 UTC</createdTime>
+<ownerDesignName>bricoDBModel</ownerDesignName>
+<engineerTo>
+<item key="5ACCE4B7-5CC1-7E69-1ED2-CDC12B6B7244" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>64</dataTypeSize>
+<ownDataTypeParameters>64,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Prenom" id="475EB915-9A30-E4F8-F132-7FD4B8283EC8">
+<createdBy>mac</createdBy>
+<createdTime>2022-06-15 20:13:32 UTC</createdTime>
+<ownerDesignName>bricoDBModel</ownerDesignName>
+<engineerTo>
+<item key="5ACCE4B7-5CC1-7E69-1ED2-CDC12B6B7244" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>64</dataTypeSize>
+<ownDataTypeParameters>64,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="courriel" id="C28C7071-D98C-AA32-D8DA-BDCEBD774E3B">
+<createdBy>mac</createdBy>
+<createdTime>2022-06-15 20:14:05 UTC</createdTime>
+<ownerDesignName>bricoDBModel</ownerDesignName>
+<engineerTo>
+<item key="5ACCE4B7-5CC1-7E69-1ED2-CDC12B6B7244" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>128</dataTypeSize>
+<ownDataTypeParameters>128,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telephone" id="5696850D-EA38-9EA9-20CB-D7825DA6C14A">
+<createdBy>mac</createdBy>
+<createdTime>2022-06-15 20:14:47 UTC</createdTime>
+<ownerDesignName>bricoDBModel</ownerDesignName>
+<engineerTo>
+<item key="5ACCE4B7-5CC1-7E69-1ED2-CDC12B6B7244" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>128</dataTypeSize>
+<ownDataTypeParameters>128,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="login" id="C2532C3E-8BAF-7223-7E56-C93DAA4C37D8">
+<createdBy>mac</createdBy>
+<createdTime>2022-06-15 20:15:37 UTC</createdTime>
+<ownerDesignName>bricoDBModel</ownerDesignName>
+<engineerTo>
+<item key="5ACCE4B7-5CC1-7E69-1ED2-CDC12B6B7244" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>128</dataTypeSize>
+<ownDataTypeParameters>128,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="motPass" id="F5429848-D674-DD14-1FB5-4A3D9B2EC6F6">
+<createdBy>mac</createdBy>
+<createdTime>2022-06-15 20:18:38 UTC</createdTime>
+<ownerDesignName>bricoDBModel</ownerDesignName>
+<engineerTo>
+<item key="5ACCE4B7-5CC1-7E69-1ED2-CDC12B6B7244" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>64</dataTypeSize>
+<ownDataTypeParameters>64,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numeroCompt" id="4D491469-814A-F065-3C66-B753A22BCC41">
+<createdBy>mac</createdBy>
+<createdTime>2022-06-15 20:19:05 UTC</createdTime>
+<ownerDesignName>bricoDBModel</ownerDesignName>
+<engineerTo>
+<item key="5ACCE4B7-5CC1-7E69-1ED2-CDC12B6B7244" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>64</dataTypeSize>
+<ownDataTypeParameters>64,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="typeCompt" id="ECCBEEC7-1936-25CE-C3B0-20ADE6F1B799">
+<createdBy>mac</createdBy>
+<createdTime>2022-06-15 20:19:48 UTC</createdTime>
+<ownerDesignName>bricoDBModel</ownerDesignName>
+<engineerTo>
+<item key="5ACCE4B7-5CC1-7E69-1ED2-CDC12B6B7244" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="adresse" id="1B22644C-3FF5-C163-64B7-D58E104077C2">
+<createdBy>mac</createdBy>
+<createdTime>2022-06-15 20:20:31 UTC</createdTime>
+<ownerDesignName>bricoDBModel</ownerDesignName>
+<engineerTo>
+<item key="5ACCE4B7-5CC1-7E69-1ED2-CDC12B6B7244" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idMessage" id="A156A81C-69AD-FFF2-7269-78B0EB0F3474">
+<createdBy>mac</createdBy>
+<createdTime>2022-06-15 21:03:41 UTC</createdTime>
+<generatorID>E35760AC-AC29-B055-C04B-CB151041E640</generatorID>
+<ownerDesignName>bricoDBModel</ownerDesignName>
+<engineerTo>
+<item key="5ACCE4B7-5CC1-7E69-1ED2-CDC12B6B7244" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>B015A0F7-1A23-5C25-3C11-630C548C2C02</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

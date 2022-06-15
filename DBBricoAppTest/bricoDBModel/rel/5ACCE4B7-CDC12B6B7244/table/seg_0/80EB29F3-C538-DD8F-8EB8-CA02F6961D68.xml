@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="80EB29F3-C538-DD8F-8EB8-CA02F6961D68" name="creeSuprimer">
+<createdBy>mac</createdBy>
+<createdTime>2022-06-15 21:26:15 UTC</createdTime>
+<ownerDesignName>bricoDBModel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Administrateur_Utilisateur_Utilisateur_ID" id="A1FFEADC-820C-4249-5C88-E4F9E5E7E4FA">
+<createdBy>mac</createdBy>
+<createdTime>2022-06-15 21:26:15 UTC</createdTime>
+<ownerDesignName>bricoDBModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C69C96C1-8937-0454-61F8-4D2265123B1C" referredColumn="480CDECA-178E-2B94-F902-07C666469C12"/>
+</associations>
+</Column>
+<Column name="Categorie_idcategorie" id="948A65E7-4BD8-5075-121C-82888F06069B">
+<createdBy>mac</createdBy>
+<createdTime>2022-06-15 21:26:15 UTC</createdTime>
+<ownerDesignName>bricoDBModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DEF27166-44F9-3FDC-1D9F-1DA3B27D19C5" referredColumn="848E1A47-CD1E-D6C6-A067-AFE514C6E403"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F631D3FA-4652-E785-AC25-B54E3FA8B918" name="creeSuprimer_PK">
+<createdBy>mac</createdBy>
+<createdTime>2022-06-15 21:26:15 UTC</createdTime>
+<ownerDesignName>bricoDBModel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A1FFEADC-820C-4249-5C88-E4F9E5E7E4FA"/>
+<colUsage columnID="948A65E7-4BD8-5075-121C-82888F06069B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E32108E5-A16F-9110-F791-F52167C84BB5" name="creeSuprimer_Administrateur_FK">
+<createdBy>mac</createdBy>
+<createdTime>2022-06-15 21:26:15 UTC</createdTime>
+<generatorID>BC019130-9AB7-DC00-3F6D-3F5FEFEA8924</generatorID>
+<ownerDesignName>bricoDBModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A1FFEADC-820C-4249-5C88-E4F9E5E7E4FA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2337B4DD-7121-FC83-9993-D907B1B695E9" name="creeSuprimer_Categorie_FK">
+<createdBy>mac</createdBy>
+<createdTime>2022-06-15 21:26:15 UTC</createdTime>
+<generatorID>BC019130-9AB7-DC00-3F6D-3F5FEFEA8924</generatorID>
+<ownerDesignName>bricoDBModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="948A65E7-4BD8-5075-121C-82888F06069B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

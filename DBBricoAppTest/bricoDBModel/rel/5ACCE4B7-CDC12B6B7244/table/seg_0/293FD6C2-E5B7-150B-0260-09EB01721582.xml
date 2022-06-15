@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="293FD6C2-E5B7-150B-0260-09EB01721582" name="Categorie">
+<createdBy>mac</createdBy>
+<createdTime>2022-06-15 21:26:15 UTC</createdTime>
+<generatorID>3737B215-18FA-BEDD-19CF-79F55C4EDDEF</generatorID>
+<ownerDesignName>bricoDBModel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nomCategorie" id="623A7E2F-A25D-683E-3E1C-22C9AA4AB83E">
+<createdBy>mac</createdBy>
+<createdTime>2022-06-15 21:26:15 UTC</createdTime>
+<generatorID>75E2EC27-8D83-DAAF-04DF-E8DDCF5D1D30</generatorID>
+<ownerDesignName>bricoDBModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>64</dataTypeSize>
+<ownDataTypeParameters>64,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="idcategorie" id="848E1A47-CD1E-D6C6-A067-AFE514C6E403">
+<createdBy>mac</createdBy>
+<createdTime>2022-06-15 21:26:15 UTC</createdTime>
+<generatorID>8BD90237-DD02-2F20-2BE0-82DC267E96C1</generatorID>
+<ownerDesignName>bricoDBModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Annonce_idAnnonce" id="C69CB050-5121-9D11-923E-E001A2842B12">
+<createdBy>mac</createdBy>
+<createdTime>2022-06-15 21:26:15 UTC</createdTime>
+<generatorID>22227296-E43D-575C-6954-A255641C7698</generatorID>
+<ownerDesignName>bricoDBModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C41DAB7D-2FB2-3F30-B4FD-522A1E43402F" referredColumn="5E6751E5-1477-3587-32CF-A54DEE060449"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C4353944-A5DA-69E4-B5AC-8BD540DA898D" name="Categorie_PK">
+<createdBy>mac</createdBy>
+<createdTime>2022-06-15 21:26:15 UTC</createdTime>
+<generatorID>71688760-6993-5AAD-A3B8-70968FF730A9</generatorID>
+<ownerDesignName>bricoDBModel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="848E1A47-CD1E-D6C6-A067-AFE514C6E403"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F2F166C2-8870-6FD7-1F00-38F8649CC7CB" name="Categorie_Annonce_FK">
+<createdBy>mac</createdBy>
+<createdTime>2022-06-15 21:26:15 UTC</createdTime>
+<generatorID>7A50AE61-F842-35D6-1684-F648F894C355</generatorID>
+<ownerDesignName>bricoDBModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C69CB050-5121-9D11-923E-E001A2842B12"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

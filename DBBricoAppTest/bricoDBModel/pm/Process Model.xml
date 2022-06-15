@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="2F95E036-10D0-3984-649F-0D2105C97555">
+<createdBy>mac</createdBy>
+<createdTime>2022-06-15 20:11:39 UTC</createdTime>
+<ownerDesignName>bricoDBModel</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="AC6DE6CB-937F-1FCE-ECD9-1F12090C7004" mainViewID="0A85FBED-0FA2-B41F-D2AD-C286932A5AAC">
+<createdBy>mac</createdBy>
+<createdTime>2022-06-15 20:11:39 UTC</createdTime>
+<ownerDesignName>bricoDBModel</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

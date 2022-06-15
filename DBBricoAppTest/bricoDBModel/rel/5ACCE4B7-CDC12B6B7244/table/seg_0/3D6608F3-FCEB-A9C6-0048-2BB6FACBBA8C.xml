@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3D6608F3-FCEB-A9C6-0048-2BB6FACBBA8C" name="Detail">
+<createdBy>mac</createdBy>
+<createdTime>2022-06-15 21:26:15 UTC</createdTime>
+<generatorID>59FD8ABC-B7E5-0D67-A467-AB252FAC8787</generatorID>
+<ownerDesignName>bricoDBModel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="note" id="04F14D11-D263-613D-B7E2-FE52111956DA">
+<createdBy>mac</createdBy>
+<createdTime>2022-06-15 21:26:15 UTC</createdTime>
+<generatorID>7A536A61-91B5-202A-3812-373007FBD0D8</generatorID>
+<ownerDesignName>bricoDBModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="commentaire" id="4EF8114B-C9B7-2163-BCE0-6683AD36432B">
+<createdBy>mac</createdBy>
+<createdTime>2022-06-15 21:26:15 UTC</createdTime>
+<generatorID>50E9296B-CCD2-FC7C-3630-FE1C4470DFA4</generatorID>
+<ownerDesignName>bricoDBModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>512</dataTypeSize>
+<ownDataTypeParameters>512,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="idDetail" id="37201223-5EBE-79B8-FBB5-E7A2FCB59754">
+<createdBy>mac</createdBy>
+<createdTime>2022-06-15 21:26:15 UTC</createdTime>
+<generatorID>527D5F8C-6466-06F7-B067-3DF25998BFE2</generatorID>
+<ownerDesignName>bricoDBModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Annonce_idAnnonce" id="EB3A8D13-55BF-3B33-1B22-A8A65F44B7C3">
+<createdBy>mac</createdBy>
+<createdTime>2022-06-15 21:26:15 UTC</createdTime>
+<generatorID>9EC38F47-E510-F759-33C9-2EC12D3B1F68</generatorID>
+<ownerDesignName>bricoDBModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="395D6D15-729E-EE2E-A686-66F305DD30AA" referredColumn="5E6751E5-1477-3587-32CF-A54DEE060449"/>
+</associations>
+</Column>
+<Column name="Membre_Utilisateur_Utilisateur_ID" id="9FFFB8F1-F892-3CDC-7A9D-3BE899A0503A">
+<createdBy>mac</createdBy>
+<createdTime>2022-06-15 21:26:15 UTC</createdTime>
+<ownerDesignName>bricoDBModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3EC915B5-399D-9162-53AE-F458D1A64DB7" referredColumn="D7C4B8D6-5634-918C-403C-2E21939530DC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="797AC232-0100-0610-1F7B-F0BE908AB69E" name="Detail_PK">
+<createdBy>mac</createdBy>
+<createdTime>2022-06-15 21:26:15 UTC</createdTime>
+<generatorID>AA17852F-9032-DBDE-3367-81EF38C0CCC9</generatorID>
+<ownerDesignName>bricoDBModel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="37201223-5EBE-79B8-FBB5-E7A2FCB59754"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9974E270-104C-3BB7-221E-59C16E08917D" name="Detail_Annonce_FK">
+<createdBy>mac</createdBy>
+<createdTime>2022-06-15 21:26:15 UTC</createdTime>
+<generatorID>2BA8BDD9-06F0-6C4F-C91D-6D64B2805D85</generatorID>
+<ownerDesignName>bricoDBModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EB3A8D13-55BF-3B33-1B22-A8A65F44B7C3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="508B8A95-1B64-BC44-4066-9EEC07C127D0" name="Detail_Membre_FK">
+<createdBy>mac</createdBy>
+<createdTime>2022-06-15 21:26:15 UTC</createdTime>
+<generatorID>E7B67CBE-98BC-DDC6-72EB-81D6FE0E901F</generatorID>
+<ownerDesignName>bricoDBModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9FFFB8F1-F892-3CDC-7A9D-3BE899A0503A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B85481E8-BBEF-7B82-D618-B318A30369C7" name="Membre">
+<createdBy>mac</createdBy>
+<createdTime>2022-06-15 21:26:15 UTC</createdTime>
+<generatorID>E3EF6D21-0A68-493D-B9EB-33ED5FE13DD0</generatorID>
+<ownerDesignName>bricoDBModel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Utilisateur_Utilisateur_ID" id="D7C4B8D6-5634-918C-403C-2E21939530DC">
+<createdBy>mac</createdBy>
+<createdTime>2022-06-15 21:26:15 UTC</createdTime>
+<ownerDesignName>bricoDBModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6C01B0AE-3FE1-6965-5217-7B74EFF326DC" referredColumn="2AC964FE-A852-273C-CA22-CC8A556ACDBC"/>
+</associations>
+</Column>
+<Column name="etatMembre" id="06FDE9E7-5483-D46D-007E-582A3EB6FD5C">
+<createdBy>mac</createdBy>
+<createdTime>2022-06-15 21:26:15 UTC</createdTime>
+<generatorID>AAE0F0FA-3CCC-3F14-4517-1BC8E09F5005</generatorID>
+<ownerDesignName>bricoDBModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT033</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Annonce_idAnnonce" id="0ACD2B78-8617-BE0A-3EE0-CA72EEE186ED">
+<createdBy>mac</createdBy>
+<createdTime>2022-06-15 21:26:15 UTC</createdTime>
+<generatorID>188946A8-DFB2-6465-D363-97AB7796E961</generatorID>
+<ownerDesignName>bricoDBModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B239C5CE-4141-43A2-F14C-FF8265FA1A49" referredColumn="5E6751E5-1477-3587-32CF-A54DEE060449"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="878A5637-A32E-DED3-9F6A-974017E63575" name="Membre_PK">
+<createdBy>mac</createdBy>
+<createdTime>2022-06-15 21:26:15 UTC</createdTime>
+<ownerDesignName>bricoDBModel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="D7C4B8D6-5634-918C-403C-2E21939530DC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="94E0D71F-49D3-0F02-3C12-7D08E6459C40" name="Membre_Utilisateur_FK">
+<createdBy>mac</createdBy>
+<createdTime>2022-06-15 21:26:15 UTC</createdTime>
+<generatorID>F9D749A0-8264-FF59-D661-AAD4948F23C5</generatorID>
+<ownerDesignName>bricoDBModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D7C4B8D6-5634-918C-403C-2E21939530DC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DCFABA48-4DE2-E195-17B4-1DB1B0947FDD" name="Membre_Annonce_FK">
+<createdBy>mac</createdBy>
+<createdTime>2022-06-15 21:26:15 UTC</createdTime>
+<generatorID>638227A4-A9F2-23A1-2B2F-F924B9A0F0AD</generatorID>
+<ownerDesignName>bricoDBModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0ACD2B78-8617-BE0A-3EE0-CA72EEE186ED"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

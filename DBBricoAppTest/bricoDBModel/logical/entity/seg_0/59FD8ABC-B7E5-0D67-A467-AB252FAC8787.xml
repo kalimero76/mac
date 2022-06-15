@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="59FD8ABC-B7E5-0D67-A467-AB252FAC8787" name="Detail">
+<createdBy>mac</createdBy>
+<createdTime>2022-06-15 20:54:20 UTC</createdTime>
+<ownerDesignName>bricoDBModel</ownerDesignName>
+<engineerTo>
+<item key="5ACCE4B7-5CC1-7E69-1ED2-CDC12B6B7244" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="note" id="7A536A61-91B5-202A-3812-373007FBD0D8">
+<createdBy>mac</createdBy>
+<createdTime>2022-06-15 20:54:33 UTC</createdTime>
+<ownerDesignName>bricoDBModel</ownerDesignName>
+<engineerTo>
+<item key="5ACCE4B7-5CC1-7E69-1ED2-CDC12B6B7244" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="commentaire" id="50E9296B-CCD2-FC7C-3630-FE1C4470DFA4">
+<createdBy>mac</createdBy>
+<createdTime>2022-06-15 20:55:07 UTC</createdTime>
+<ownerDesignName>bricoDBModel</ownerDesignName>
+<engineerTo>
+<item key="5ACCE4B7-5CC1-7E69-1ED2-CDC12B6B7244" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>512</dataTypeSize>
+<ownDataTypeParameters>512,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idDetail" id="527D5F8C-6466-06F7-B067-3DF25998BFE2">
+<createdBy>mac</createdBy>
+<createdTime>2022-06-15 20:55:29 UTC</createdTime>
+<ownerDesignName>bricoDBModel</ownerDesignName>
+<engineerTo>
+<item key="5ACCE4B7-5CC1-7E69-1ED2-CDC12B6B7244" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idAnnonce" id="9EC38F47-E510-F759-33C9-2EC12D3B1F68">
+<createdBy>mac</createdBy>
+<createdTime>2022-06-15 21:18:14 UTC</createdTime>
+<generatorID>2BA8BDD9-06F0-6C4F-C91D-6D64B2805D85</generatorID>
+<ownerDesignName>bricoDBModel</ownerDesignName>
+<engineerTo>
+<item key="5ACCE4B7-5CC1-7E69-1ED2-CDC12B6B7244" value="true"/>
+</engineerTo>
+<referedAttribute>96289698-DB41-A834-9514-E3706A0096FC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="AA17852F-9032-DBDE-3367-81EF38C0CCC9" name="Detail PK">
+<createdBy>mac</createdBy>
+<createdTime>2022-06-15 20:55:54 UTC</createdTime>
+<ownerDesignName>bricoDBModel</ownerDesignName>
+<engineerTo>
+<item key="5ACCE4B7-5CC1-7E69-1ED2-CDC12B6B7244" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>527D5F8C-6466-06F7-B067-3DF25998BFE2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

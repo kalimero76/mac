@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F5360802-2EBD-7E07-2238-3BA6B11BE862" name="Signaler">
+<createdBy>mac</createdBy>
+<createdTime>2022-06-15 20:45:11 UTC</createdTime>
+<ownerDesignName>bricoDBModel</ownerDesignName>
+<engineerTo>
+<item key="5ACCE4B7-5CC1-7E69-1ED2-CDC12B6B7244" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="dateSignalisation" id="575C0622-769D-A4E6-59EC-E9A47C2D28EC">
+<createdBy>mac</createdBy>
+<createdTime>2022-06-15 20:45:43 UTC</createdTime>
+<ownerDesignName>bricoDBModel</ownerDesignName>
+<engineerTo>
+<item key="5ACCE4B7-5CC1-7E69-1ED2-CDC12B6B7244" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="raisonSignalement" id="C9A281AE-B129-D9C0-E94F-E5CBEC63B6FB">
+<createdBy>mac</createdBy>
+<createdTime>2022-06-15 20:46:13 UTC</createdTime>
+<ownerDesignName>bricoDBModel</ownerDesignName>
+<engineerTo>
+<item key="5ACCE4B7-5CC1-7E69-1ED2-CDC12B6B7244" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idSignalement" id="0A7945B6-7C9A-2B46-ED7D-3D3A6B92FC7A">
+<createdBy>mac</createdBy>
+<createdTime>2022-06-15 20:47:02 UTC</createdTime>
+<ownerDesignName>bricoDBModel</ownerDesignName>
+<engineerTo>
+<item key="5ACCE4B7-5CC1-7E69-1ED2-CDC12B6B7244" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idAnnonce" id="6B6C3F86-3FC1-F9ED-B8F3-CDB00116E247">
+<createdBy>mac</createdBy>
+<createdTime>2022-06-15 21:19:22 UTC</createdTime>
+<generatorID>A12A227B-8BB4-466D-DE68-F1323438ADAE</generatorID>
+<ownerDesignName>bricoDBModel</ownerDesignName>
+<engineerTo>
+<item key="5ACCE4B7-5CC1-7E69-1ED2-CDC12B6B7244" value="true"/>
+</engineerTo>
+<referedAttribute>96289698-DB41-A834-9514-E3706A0096FC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="537370F6-0FD4-369C-5D8C-434E4D190A99" name="Signaler PK">
+<createdBy>mac</createdBy>
+<createdTime>2022-06-15 20:47:27 UTC</createdTime>
+<ownerDesignName>bricoDBModel</ownerDesignName>
+<engineerTo>
+<item key="5ACCE4B7-5CC1-7E69-1ED2-CDC12B6B7244" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0A7945B6-7C9A-2B46-ED7D-3D3A6B92FC7A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

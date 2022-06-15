@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKArc class="oracle.dbtools.crest.model.design.relational.FKArc" directorySegmentName="seg_0" id="77A684AE-8FC7-93D3-E464-A66F7B1A0C13" name="FKArc_1">
+<createdBy>mac</createdBy>
+<createdTime>2022-06-15 21:26:15 UTC</createdTime>
+<ownerDesignName>bricoDBModel</ownerDesignName>
+<mandatory>false</mandatory>
+<reverseArc>true</reverseArc>
+<table>DF2EE609-5A52-575F-26E9-16EC0C3AA2DF</table>
+<fkeys>
+<fkeyID>6C01B0AE-3FE1-6965-5217-7B74EFF326DC</fkeyID>
+<fkeyID>E086047F-FB79-D5FF-92E4-31DFA0CCC3DA</fkeyID>
+</fkeys>
+</FKArc>

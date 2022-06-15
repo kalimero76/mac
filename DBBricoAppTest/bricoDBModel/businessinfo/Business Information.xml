@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="A346F31A-40DD-189F-AD4F-C7B672FCC3CB">
+<createdBy>mac</createdBy>
+<createdTime>2022-06-15 20:11:39 UTC</createdTime>
+<ownerDesignName>bricoDBModel</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

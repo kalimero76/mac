@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="048A6CD6-6CC9-5DD0-C97C-506439D63A14" containerWithKeyObject="E342B954-9D0D-0454-BBB2-3468FD302148" localFKIndex="696AE47C-D37E-82C5-0E10-5B21C2EDBF31" name="Favorie_Membre_FK">
+<createdBy>mac</createdBy>
+<createdTime>2022-06-15 21:26:15 UTC</createdTime>
+<generatorID>5E4B52B2-5416-8180-42F6-EF40D028B58A</generatorID>
+<ownerDesignName>bricoDBModel</ownerDesignName>
+<referredTableLongName>Membre</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B85481E8-BBEF-7B82-D618-B318A30369C7</referredTableID>
+<keyObject>878A5637-A32E-DED3-9F6A-974017E63575</keyObject>
+<referredKeyID>878A5637-A32E-DED3-9F6A-974017E63575</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Utilisateur_Utilisateur_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
